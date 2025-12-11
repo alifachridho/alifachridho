@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: Anti Redirect OasisMD & Elohim
+! Title: Anti Redirect OasisMD & Elohim (Advanced)
 ! Version: 2025.12.11
 
 oasismd.ca##+js(aopr, onclick)
@@ -24,6 +24,5 @@ elohim.id##iframe[src*="news"]
 
 ||s0-greate.net^
 ||s0-greate.net/go/$document
-
 ||puschme.link^
 ||puschme.link/click.php?$document
