@@ -1,17 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Anti Redirect OasisMD
 ! Version: 2025.02.01
-! Expires: 2 days
 
-! ————— BLOCK JAVASCRIPT REDIRECT —————
 oasismd.ca##+js(aopr, onclick)
 oasismd.ca##+js(aopr, open)
 oasismd.ca##+js(nano-removeAttributes, onclick,onbeforeunload)
 
-! ————— BLOCK IFRAME IKLAN —————
 oasismd.ca##iframe[src*="ad"]
 oasismd.ca##iframe[src*="article"]
 oasismd.ca##iframe[src*="news"]
 
-! ————— BLOCK POPUP SCRIPT —————
-||oasismd.ca/wp-content/*.js$script,redirect
+||oasismd.ca/wp-content/*.js$script
