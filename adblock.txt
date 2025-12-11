@@ -1,7 +1,6 @@
 [Adblock Plus 2.0]
-! Title: Anti Redirect OasisMD + Adware
-! Version: 2025.02.01
-! Expires: 2 days
+! Title: Anti Redirect OasisMD & Elohim
+! Version: 2025.12.11
 
 oasismd.ca##+js(aopr, onclick)
 oasismd.ca##+js(aopr, open)
@@ -13,7 +12,18 @@ oasismd.ca##iframe[src*="news"]
 
 ||oasismd.ca/wp-content/*.js$script
 
+elohim.id##+js(aopr, onclick)
+elohim.id##+js(aopr, open)
+elohim.id##+js(nano-removeAttributes, onclick,onbeforeunload)
+
+elohim.id##iframe[src*="ad"]
+elohim.id##iframe[src*="article"]
+elohim.id##iframe[src*="news"]
+
+||elohim.id/wp-content/*.js$script
+
 ||s0-greate.net^
-||s0-greate.net/go/*$document
+||s0-greate.net/go/$document
+
 ||puschme.link^
-||puschme.link/*$document
+||puschme.link/click.php?$document
